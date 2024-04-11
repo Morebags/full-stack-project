@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 header{
     position: sticky;
     top: 0;
@@ -74,7 +83,11 @@ form{
 }
 .flexme{
     border: 1px solid #7C0B0B;
-    padding: 10px 0px;
+    border-radius: 20px;
+    
+
+    
+    
 }
 .flexme img{
     margin-top: 10px;
@@ -84,9 +97,150 @@ form{
 }
 
 
+/* Section-most */
+
+.box-E {
+    background-image: url(./Rectangle\ 11\ \(1\).png);
+    width: 267px;
+    height: 198px;
+    top: 2691px;
+    left: 751px;
+    gap: 0px;
+    border-radius: 30px 30px 30px 30px;
+    opacity: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.most-section h1 {
+    width: 365px;
+    height: 37px;
+    top: 2593px;
+    left: 537px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    text-align: center;
+    
+
+    
 
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .most-section {
+    
+}
+
+.div-d {
+    background-image: url(./Rectangle\ 11\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 267px;
+    Height:198px;
+    top: 2692px;
+    left: 100px;
+    gap: 0px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+    margin: auto;
+}
+
+.div-d img {
+
+   margin-top: 0px;
+   margin-left: 90px;
+   Width: 60px;
+   Height: 60px;
+   Top: 2730px;
+   Left: 203px;
+   Border: 1px;
+}
+.div-d h1 {
+    width: 87px;
+    height: 20px;
+    top: 2803px;
+    left: 190px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    margin-left: 80px;
+    color: #ffffff;
+}
+
+.div-d h5 {
+    width: 154px;
+    height: 15px;
+    top: 2836px;
+    left: 156px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+.stella-j {
+    background-image: url(./Rectangle\ 11\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 267px;
+    Height:198px;
+    top: 2692px;
+    left: 100px;
+    gap: 0px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+} */
 
 
 

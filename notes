@@ -114,3 +114,37 @@
     <button>Join Free Today</button>
   </div>
 </section>
+
+
+<!-- section-most -->
+
+
+
+        <!-- <div> --> -->
+          <!-- <img src="./Ellipse 1.png" alt="">
+          <h1>Mary Bells</h1>
+          <h5>Joined three months ago</h5>      
+        </div>
+         
+           <div class="col-lg-2 div-d">
+              <div>
+                <img src="./Ellipse 1.png" alt="">
+                <h1>Mary Bells</h1>
+                <h5>Joined three months ago</h5>      
+              </div>
+            </div>
+
+            <div class="col-lg-2 div-d ">
+              <div>
+                <img src="./Ellipse 1.png" alt="">
+                <h1>Mary Bells</h1>
+                <h5>Joined three months ago</h5>      
+              </div>
+            </div>
+
+            <div class="col-lg-2 div-d justify-content-between">
+              <div>
+                <img src="./Ellipse 1.png" alt="">
+                <h1>Mary Bells</h1>
+                <h5>Joined three months ago</h5>      
+              </div> -->
