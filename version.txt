@@ -2,3 +2,24 @@ git -
 github
 terminal -
 create a github account
+
+
+width: 365px;
+height: 37px;
+top: 2593px;
+left: 537px;
+gap: 0px;
+opacity: 0px;
+
+
+
+width: 365px;
+height: 37px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 36.57px;
+

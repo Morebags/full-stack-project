@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+:var {
+--font-family: "Montserrat", sans-serif;
+}
 
 
 header{
@@ -99,44 +102,203 @@ form{
 
 /* Section-most */
 
+.mos-t {
+  margin-bottom: 40px;
+  margin-top: 0px;
+  height: 37px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36.57px;
+}
+
+
+
 .box-E {
     background-image: url(./Rectangle\ 11\ \(1\).png);
     width: 267px;
-    height: 198px;
+    height: 140px;
     top: 2691px;
     left: 751px;
     gap: 0px;
     border-radius: 30px 30px 30px 30px;
-    opacity: 0px;
+    /* opacity: 0px; */
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.most-section h1 {
-    width: 365px;
-    height: 37px;
-    top: 2593px;
-    left: 537px;
+.box-E img {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
     gap: 0px;
+    border: 1px 0px 0px 0px;
     opacity: 0px;
+}
 
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 36.57px;
+.box-E h1 {
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: var(--font-family);
+    color: #ffffff;  
+}
+
+.box-E h6 {
+
+    /* width: 154px; */
+    height: 15px;
+    opacity: 0px;
+    font-family: var(--font-family);
+    color: #ffffff;
+
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 300;
+
+    /* text-align: center;
+    text-align-last: center; */
+}
+
+.btn-v  button {
+    border-radius: 7px;
+    border: none;
     text-align: center;
-    
-
-    
-
-
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    background-color: #7C0B0B;
+    color: #FFFFFF;
+    padding: 1px;
+    font-size: small;
+    font-weight: 300;
 
 }
 
+/* <!-- Testimonials --> */
+ .test-box {
+    background-image: url(./Rectangle\ 12.png);
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 30px 30px;
+    width: 366px;
+    height: 328px;
+    gap: 0px;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-position: center;
+    
+ }
+
+ /* .test-box {
+    text-align: start;
+ } */
+
+ .test-box p {
+   padding: 40px;
+    
+    
+    
+    
+ }
+
+ .testimonial-section h1 {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36.57px;
+    
+ }
+
+ .testimonial-section  h6 {
+    margin-bottom: 150px;
+    font-family: var(--font-family);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #7C0B0B;
+ }
+
+ .test-box p {
+    
+    
+    
+ }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media(min-width:375px) {
+    .box-E {
+        border-radius: 20px;
+    }  
+} */
+
+
+
+
+
+/* @media(min-width:1024px){
+    .btnlogin ul{
+        gap: 40px;
+    }
+
+
+
+    .btnlogin ul{
+        gap: 40px;
+    }
+
+
+
+ */
 
 
 
