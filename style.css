@@ -118,12 +118,12 @@ form{
 
 .box-E {
     background-image: url(./Rectangle\ 11\ \(1\).png);
-    width: 267px;
+    background-color: aqua;
+    background-size: cover;
     height: 140px;
-    top: 2691px;
-    left: 751px;
     gap: 0px;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 30px;
+    border: none;
     /* opacity: 0px; */
     background-repeat: no-repeat;
     background-position: center;
@@ -173,37 +173,13 @@ form{
     padding: 1px;
     font-size: small;
     font-weight: 300;
-
 }
 
+
+
 /* <!-- Testimonials --> */
- .test-box {
-    background-image: url(./Rectangle\ 12.png);
-    background-repeat: no-repeat;
-    border-radius: 30px 30px 30px 30px;
-    width: 366px;
-    height: 328px;
-    gap: 0px;
-    border-radius: 30px 30px 30px 30px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    background-position: center;
-    
- }
 
- /* .test-box {
-    text-align: start;
- } */
-
- .test-box p {
-   padding: 40px;
-    
-    
-    
-    
- }
-
- .testimonial-section h1 {
+.testimonial-section h1 {
     font-family: var(--font-family);
     font-size: 20px;
     font-weight: 800;
@@ -220,57 +196,78 @@ form{
     color: #7C0B0B;
  }
 
- .test-box p {
+
+ .test-box {
+    background-image: url(./Rectangle\ 12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: none;
+    height: 450px;
+    width: 510px;
+    width: 100%;
     
+    /* padding-left: 20px;
+    padding-right: 20px; */
+ }
+
+.test-box p {
+    margin-top: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
     
+}
+
+span {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* align-items: center;
+    gap: 6px;
+    margin-top: 7px;
+    margin-bottom: 7px; */
+
+}
+
+span img {
+    height: 50px;
+}
+
+    /* background-image: url(./Rectangle\ 12.png);
+    background-repeat: no-repeat;
+    /* bozerdr-radius: 30px 30px 30px 30px; */
+    /* width: 600%;
+    height: 400px;
+    gap: 0px;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-position: center; */ 
+ 
+
+
+ /* .test-box {
+    text-align: start;
+ } */
+
+ /* .test-box p {
+   padding: 20px;
+   width: 300px;
+   text-align: center;
     
  }
 
 
+.Profile {
+    height: 50px; 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.test-box .Profile p {
+    height: 20vh;
+} */
 
 
 
@@ -299,37 +296,6 @@ form{
 
 
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -403,23 +369,3 @@ form{
     border-radius: 30px 0px 0px 0px;
     opacity: 0px;
 } */
-
-
-
-
-
-
-
-
-
-
-
-/* 
-Width
-Fixed (1,427px)
-Height
-Fixed (100px)
-Padding
-30px, 0px, 30px, 101px
-Gap
-477px */
