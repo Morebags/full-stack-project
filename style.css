@@ -224,80 +224,72 @@ p {
 
 /* <!-- Testimonials --> */
 
-.testimonial-section h1 {
-  font-family: var(--font-family);
-  font-size: 30px;
-  font-weight: 800;
-  line-height: 36.57px;
+.section-testbox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 70px;
+
+
+  
+  
+
 }
 
-.our-client {
-  margin-bottom: 150px;
-  font-family: var(--font-family);
-
-  font-weight: 700;
-  line-height: 19.5px;
-  color: #7c0b0b;
-
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 14.63px;
+@media (min-width: 1024px) {
+  .section-test {
+    justify-content: center;
+    align-items: center;
+    
+  }
 }
-
 .test-box {
-  background-image: url(./Rectangle\ 12.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
-  border: none;
-  height: 450px;
-  width: 510px;
-  width: 100%;
-
-  /* padding-left: 20px;
-    padding-right: 20px; */
+  background-color: #b36969;
+  
+   width: 240px;
+   margin: auto;
+   border-radius: 20px;
+   border: none;
+   height: 230px;
 }
+
+.ellips {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  margin-top: -30px;
+  
+}
+
+.test-box img {
+  height: 40px;
+  
+}
+
+
 
 .test-box p {
-  margin-top: 65px;
-  padding-left: 20px;
-  padding-right: 20px;
   color: #000000;
-
-  font-family: var(--font-family);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19.5px;
-}
-
-span {
-  display: flex;
+  padding: 20px;
+  font-size: 10px;
   margin-top: 30px;
-  gap: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  /* align-items: center;
-    gap: 6px;
-    margin-top: 7px;
-    margin-bottom: 7px; */
+  
 }
 
-span img {
-  height: 50px;
+@media ( min-width: 375Px) {
+  .section-testbox {
+       width: 90%;
+ 
+     }
+
 }
 
-span h6 {
-  color: #000000;
-  font-family: var(--font-family);
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 14.63px;
-}
+
 
 /* subscribe-section */
 
-.subscribe {
+.subscribe-section {
   text-align: center;
   margin-top: 100px;
 }
@@ -466,7 +458,7 @@ footer{
 .links{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
 }
 .foot-sub{
     background-color: #fff;
@@ -562,157 +554,3 @@ footer{
 
 
 
-/* 
-.div-footer {
-    
-    border-radius: 20px;
-    width: 25%;
-    height: 80px;
-    
-    
-} */
-
-/* .input-container {
-  display: inline-flex; 
-  align-items: center; 
-}
-
-.input-container input {
- 
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.input-container button {
-  
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  margin-left: 10px; 
-} */
-
-/* background-image: url(./Rectangle\ 12.png);
-    background-repeat: no-repeat;
-    /* bozerdr-radius: 30px 30px 30px 30px; */
-/* width: 600%;
-    height: 400px;
-    gap: 0px;
-    border-radius: 30px 30px 30px 30px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    background-position: center; */
-
-/* .test-box {
-    text-align: start;
- } */
-
-/* .test-box p {
-   padding: 20px;
-   width: 300px;
-   text-align: center;
-    
- }
-
-
-.Profile {
-    height: 50px; 
-}
-
-.test-box .Profile p {
-    height: 20vh;
-} */
-
-/* @media(min-width:375px) {
-    .box-E {
-        border-radius: 20px;
-    }  
-} */
-
-/* @media(min-width:1024px){
-    .btnlogin ul{
-        gap: 40px;
-    }
-
-
-
-    .btnlogin ul{
-        gap: 40px;
-    }
-
-
-
- */
-
-/* .most-section {
-    
-}
-
-.div-d {
-    background-image: url(./Rectangle\ 11\ \(1\).png);
-    background-repeat: no-repeat;
-    width: 267px;
-    Height:198px;
-    top: 2692px;
-    left: 100px;
-    gap: 0px;
-    border-radius: 30px 0px 0px 0px;
-    opacity: 0px;
-    margin: auto;
-}
-
-.div-d img {
-
-   margin-top: 0px;
-   margin-left: 90px;
-   Width: 60px;
-   Height: 60px;
-   Top: 2730px;
-   Left: 203px;
-   Border: 1px;
-}
-.div-d h1 {
-    width: 87px;
-    height: 20px;
-    top: 2803px;
-    left: 190px;
-    gap: 0px;
-    opacity: 0px;
-    margin-top: 10px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19.5px;
-    margin-left: 80px;
-    color: #ffffff;
-}
-
-.div-d h5 {
-    width: 154px;
-    height: 15px;
-    top: 2836px;
-    left: 156px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 14.63px;
-    text-align: left;
-    color: #ffffff;
-    margin-left: 50px;
-}
-
-.stella-j {
-    background-image: url(./Rectangle\ 11\ \(1\).png);
-    background-repeat: no-repeat;
-    width: 267px;
-    Height:198px;
-    top: 2692px;
-    left: 100px;
-    gap: 0px;
-    border-radius: 30px 0px 0px 0px;
-    opacity: 0px;
-} */

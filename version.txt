@@ -23,3 +23,179 @@ font-size: 30px;
 font-weight: 700;
 line-height: 36.57px;
 
+
+
+ <!-- <section class=" box-text  py-3 px-3">
+          <div class="container text">
+            <h1 class="text-center">Testimonials</h1>
+            <h6 class="mb-5 text-center">Our Clients Say</h6>
+            <div class="row justify-content-between test-box gap-5">
+
+
+                  <div class="col-lg-3 test-box">
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde accusantium doloremque perferendis. Architecto, sunt optio unde necessitatibus explicabo fugiat eius!</p>
+                          <span>
+                       <img src="./Ellipse 2.png" alt="#">
+                         <h6>Paul Doe</h6>
+                     </span>
+                 </div> 
+
+          
+                 <div class="col-lg-3 test-box">           
+                  <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde accusantium doloremque perferendis. Architecto, sunt optio unde necessitatibus explicabo fugiat eius!</p>
+                  <span>
+                   <img src="./Ellipse 2.png" alt="#">
+                    <h6>Kevin Job</h6>
+                  </span>
+                 </div>
+
+                   
+            
+                <div class="col-lg-3 test-box">           
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde accusantium doloremque perferendis. Architecto, sunt optio unde necessitatibus explicabo fugiat eius!</p>
+                  
+                  <span>
+                  <img src="./Ellipse 2.png" alt="#">
+                  <h6>Paul Doe</h6>
+                    </span>
+        </div>
+                 
+
+        -->
+            
+
+
+                 
+                
+        <!-- <section class="testimonial-section   py-3 px-3">
+          <h1 class="text-center">Testimonials</h1>
+          <h6 class="mb-5 text-center our-client">Our Clients Say</h6>
+          <div class="container px-5">
+           <div class="row justify-content-between w-5"> -->
+
+
+
+
+
+
+           <!-- <div class="container">
+            <div class="row">
+              <div class="col-lg-4 bg-white justify-content-between py-2 px-5 are-you">
+                
+                  <div class="img-group">
+                    <img class="" src="./Group 110.png" alt="">
+                   <h6>Are you ready?</h6>
+                  </div>
+                  
+
+                 
+                <div>
+                  <button>Get Started</button>
+                </div>
+              </div> -->
+            
+               
+                
+
+
+          
+          
+
+             <!-- <div class="col-lg-4 d-flex anchor-part">
+                <ul>
+                  <li><a class="text-decoration-none text-white" href="#">About Us</a></li>
+                  <li><a class="text-decoration-none text-white" href="#">Contact</a></li>
+                  <li><a class="text-decoration-none text-white" href="#">Newsletter</a></li>
+                  <li><a class="text-decoration-none text-white" href="#">Testimonials</a></li>
+               </ul>
+          
+                <ul>
+                  <li><a class="text-decoration-none text-white" href="#">Terms & Conditions</a></li>
+                  <li><a class="text-decoration-none text-white" href="#">Privacy Policy</a></li>
+                  <li><a class="text-decoration-none text-white" href="#">Help Centre</a></li>
+                  <li><a class="text-decoration-none text-white" href="#">FAQs</a></li>
+                </ul>
+              </div> -->
+            <!-- </div>
+          </div> -->
+
+
+
+
+          /* .testimonial-section h1 {
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36.57px;
+}
+
+.our-client {
+  margin-bottom: 150px;
+  font-family: var(--font-family);
+
+  font-weight: 700;
+  line-height: 19.5px;
+  color: #7c0b0b;
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 14.63px;
+}
+
+.test-box {
+  background-image: url(./Rectangle\ 12.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  border: none;
+  height: 300px;
+  width: 510px;
+  width: 100%;
+
+  /* padding-left: 20px;
+    padding-right: 20px; */
+
+
+/* @media (min-width: 320px) {
+  .text-box p {
+      object-fit: cover;
+  }
+} */
+
+/* .test-box p {
+  margin-top: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #000000;
+  object-fit: cover;
+
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+}
+
+span {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* align-items: center;
+    gap: 6px;
+    margin-top: 7px;
+    margin-bottom: 7px; */
+}
+
+/* span img {
+  height: 50px;
+}
+
+span h6 {
+  color: #000000;
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 14.63px;
+}  */
